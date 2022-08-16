@@ -17,6 +17,7 @@ body {
 .attribution {
   font-size: 14px;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .attribution a {
@@ -116,6 +117,44 @@ body {
 }
 .section-buttons__btn-cancel:hover {
   color: hsl(223deg, 47%, 23%);
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+  }
+  .main-container {
+    width: 452px;
+    height: 665px;
+  }
+  .section-imagen {
+    height: 250px;
+    background-size: contain;
+  }
+  .section-presentation__title {
+    margin: 5px auto 16px;
+  }
+  .section-presentation__description {
+    padding: 0 47px 0 47px;
+  }
+  .section-plan {
+    width: 65%;
+    justify-content: flex-start;
+  }
+  .section-plan__link {
+    margin-left: 93px;
+  }
+  .section-plan__image {
+    margin-right: 15px;
+  }
+}
+.section-buttons__btn-payment {
+  width: 310px;
+  height: 40px;
+  margin-bottom: 25px;
+}
+.section-buttons__btn-cancel {
+  width: 23%;
 }
 
 /*# sourceMappingURL=styles.css.map */

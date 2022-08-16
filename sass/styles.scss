@@ -36,7 +36,6 @@
 .section-plan {
   display: flex;
   flex-direction: row;
-  // align-items: center;
   justify-content: space-around;
   width: 75%;
   margin: auto;
@@ -105,5 +104,56 @@
     &:hover {
       color: variables.$Dark-blue;
     }
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+  }
+
+  .main-container {
+    width: 452px;
+    height: 665px;
+  }
+
+  .section-imagen {
+    height: 250px;
+    background-size: contain;
+  }
+
+  .section-presentation {
+    &__title {
+      margin: 5px auto 16px;
+    }
+    &__description {
+      // border: 1px solid red;
+      // padding-right: 94px;
+      padding: 0 47px 0 47px;
+    }
+  }
+
+  .section-plan {
+    width: 65%;
+    justify-content: flex-start;
+    &__link {
+      // border: 1px solid red;
+      margin-left: 93px;
+    }
+    &__image {
+      // border: 1px solid red;
+      margin-right: 15px;
+    }
+  }
+}
+
+.section-buttons {
+  &__btn-payment {
+    width: 310px;
+    height: 40px;
+    margin-bottom: 25px;
+  }
+  &__btn-cancel {
+    width: 23%;
   }
 }
