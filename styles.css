@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +9,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   background-color: hsl(225deg, 100%, 94%);
-  background-image: url(images/pattern-background-mobile.svg);
+  background-image: url(../images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -34,7 +33,7 @@ body {
 }
 
 .section-imagen {
-  background-image: url(images/illustration-hero.svg);
+  background-image: url(../images/illustration-hero.svg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 157px;
@@ -44,12 +43,10 @@ body {
 .section-presentation {
   text-align: center;
 }
-
 .section-presentation__title {
   font-size: 1.4em;
   margin: 40px auto 16px;
 }
-
 .section-presentation__description {
   margin: 0 26px 51px 35px;
   line-height: 25px;
@@ -65,24 +62,20 @@ body {
   margin: auto;
   padding-bottom: 41px;
 }
-
 .section-plan__image {
-  background-image: url(images/icon-music.svg);
+  background-image: url(../images/icon-music.svg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 45px;
   width: 45px;
 }
-
 .section-plan__sale p:nth-child(1) {
   font-size: 0.9em;
   font-weight: 900;
 }
-
 .section-plan__sale p:nth-child(2) {
   color: hsl(224deg, 23%, 55%);
 }
-
 .section-plan__link {
   align-self: center;
   margin-left: 22px;
@@ -90,7 +83,6 @@ body {
   font-size: 0.7em;
   color: hsl(245deg, 75%, 52%);
 }
-
 .section-plan__link:hover {
   color: hsl(224deg, 23%, 55%);
   text-decoration: none;
@@ -110,71 +102,55 @@ body {
   box-shadow: 0 15px 22px hsl(224deg, 23%, 55%);
   margin-bottom: 22px;
 }
-
 .section-buttons__btn-payment:hover {
   cursor: pointer;
   background-color: hsl(224deg, 23%, 55%);
 }
-
 .section-buttons__btn-cancel {
   width: 32%;
   display: block;
-  align-items: center;
   margin: auto;
   text-decoration: none;
   color: hsl(224deg, 23%, 55%);
   font-weight: 700;
 }
-
 .section-buttons__btn-cancel:hover {
   color: hsl(223deg, 47%, 23%);
 }
 
 @media (min-width: 1440px) {
   body {
-    background-image: url(images/pattern-background-desktop.svg);
+    background-image: url(../images/pattern-background-desktop.svg);
   }
-
   .main-container {
     width: 452px;
     height: 665px;
   }
-
   .section-imagen {
     height: 250px;
     background-size: contain;
   }
-
   .section-presentation__title {
     margin: 5px auto 16px;
   }
-
   .section-presentation__description {
     padding: 0 47px 0 47px;
   }
-
   .section-plan {
     width: 65%;
     justify-content: flex-start;
   }
-
   .section-plan__link {
     margin-left: 93px;
   }
-
   .section-plan__image {
     margin-right: 15px;
   }
 }
-
 .section-buttons__btn-payment {
   width: 310px;
   height: 40px;
   margin-bottom: 25px;
-}
-
-.section-buttons__btn-cancel {
-  width: 23%;
 }
 
 /*# sourceMappingURL=styles.css.map */
