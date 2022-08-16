@@ -9,4 +9,8 @@
 body {
   font-family: variables.$font-family-body;
   font-size: variables.$Font-size-p-body;
+  background-color: variables.$Pale-blue;
+  background-image: url(../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
